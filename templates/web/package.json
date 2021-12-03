@@ -1,0 +1,29 @@
+{
+  "name": "@pab-source/template-web",
+  "description": "Example of using create-react-app in a TS monorepo",
+  "private": false,
+  "version": "1.0.1",
+  "scripts": {
+    "start": "cross-env SKIP_PREFLIGHT_CHECK=true craco start",
+    "build:web": "cross-env SKIP_PREFLIGHT_CHECK=true craco build",
+    "clean": "rimraf -rf ./build"
+  },
+  "dependencies": {
+    "antd": "^4.16.13",
+    "react": "~17.0.0",
+    "react-dom": "~17.0.0"
+  },
+  "devDependencies": {
+    "@craco/craco": "~6.4.0",
+    "@types/node": "~16.11.0",
+    "@types/react": "~17.0.0",
+    "@types/react-dom": "~17.0.0",
+    "craco-less": "^1.17.1",
+    "cross-env": "~7.0.2",
+    "fork-ts-checker-webpack-plugin": "~6.4.0",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "react-scripts": "~4.0.1",
+    "tsconfig-paths-webpack-plugin": "~3.5.0"
+  }
+}

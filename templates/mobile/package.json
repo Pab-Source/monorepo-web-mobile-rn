@@ -1,0 +1,56 @@
+{
+  "name": "@pab-source/template-mobile",
+  "version": "1.0.1",
+  "private": false,
+  "scripts": {
+    "android": "export PROD=false && react-native run-android",
+    "build:android": "export PROD=true && cd android && ./gradlew assembleRelease",
+    "ios": "react-native run-ios",
+    "pods": "pod-install",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@pab-source/lib-mobile-components": "^1.0.24-alpha.24",
+    "@pab-source/lib-shared-themes": "^1.0.25-alpha.3",
+    "react": "17.0.2",
+    "react-native": "0.66.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-text-input-mask": "^3.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/cli-platform-android": "^6.2.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/react-native": "^0.66.4",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-transform-import-paths": "^1.0.3",
+    "eslint": "^7.14.0",
+    "invariant": "^2.2.4",
+    "jest": "^26.6.3",
+    "metro": "^0.66.2",
+    "nullthrows": "^1.1.1",
+    "pod-install": "^0.1.29",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}

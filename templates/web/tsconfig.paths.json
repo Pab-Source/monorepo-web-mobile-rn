@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+
+        "paths": {
+            /* Redefine the root path aliases relative to this package. */
+            "web-standard-module": ["./modules/standard/index.ts"],
+            "web-components-lib": ["./libs/components/index.ts"],
+            "shared-themes-lib": ["../shared/libs/themes/index.ts"],
+
+            /* Define aliases specific to this package. */
+            "@components/*": ["./src/components/*"],
+            "@hooks/*": ["./src/hooks/*"]
+        }
+    }
+}

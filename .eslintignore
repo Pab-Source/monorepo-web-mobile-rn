@@ -1,0 +1,8 @@
+node_modules
+**/node_modules
+**/dist
+**/build
+**/package.json
+**/yarn.lock
+**/.eslintrc
+**/.prettierrc

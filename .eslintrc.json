@@ -1,0 +1,74 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["react", "prettier", "@typescript-eslint", "no-loops", "import", "jest", "jest-dom", "testing-library"],
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:prettier/recommended",
+        "plugin:jsx-a11y/recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "arrowFunctions": true
+        }
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "globals": {
+        "React": "writable"
+    },
+    "rules": {
+        "react/no-unknown-property": "off",
+        "comma-dangle": "off",
+        "function-paren-newline": "off",
+        "global-require": "off",
+        "import/no-dynamic-require": "off",
+        "no-inner-declarations": "off",
+        "class-methods-use-this": "off",
+        "import/extensions": "off",
+        "import/prefer-default-export": "off",
+        "react/display-name": "error",
+        "react/prop-types": "off",
+        "react/prefer-stateless-function": "error",
+        "no-unused-vars": [
+            "warn",
+            {
+                "args": "none",
+                "argsIgnorePattern": "req|res|next|val"
+            }
+        ],
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
+        "react/react-in-jsx-scope": "off",
+        "no-loops/no-loops": 2,
+        "jsx-a11y/anchor-is-valid": ["error"],
+        "react/jsx-sort-props": [
+            "warn",
+            {
+                "callbacksLast": true,
+                "shorthandFirst": true,
+                "ignoreCase": true
+            }
+        ]
+    }
+}

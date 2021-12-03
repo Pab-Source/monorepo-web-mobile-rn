@@ -1,0 +1,39 @@
+{
+  "name": "@pab-source/lib-web-components",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "yarn run clean && yarn run compile",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "yarn run build",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "build:theme": "ts-node-dev ./util/create-theme",
+    "start": "nodemon --watch '../../../libs/**' --ext 'ts,json' --exec ts-node -O '{ \"module\": \"commonjs\" }' ./util/create-theme",
+    "theme": "ts-node -O '{ \"module\": \"commonjs\" }' ./util/create-theme"
+  },
+  "peerDependencies": {
+    "antd": "^4.16.13",
+    "react": "~17.0.0"
+  },
+  "dependencies": {
+    "antd": "^4.16.13"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.7",
+    "@types/react": "~17.0.0",
+    "copyfiles": "^2.4.1",
+    "nodemon": "^2.0.15",
+    "react": "~17.0.0",
+    "react-dom": "~17.0.0",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
