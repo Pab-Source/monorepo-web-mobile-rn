@@ -1,0 +1,1 @@
+{"version":3,"sources":["colors.ts"],"names":["bgGray","textBlack"],"mappings":";;;;;;AAAO,MAAMA,MAAM,GAAG,SAAf;;AACA,MAAMC,SAAS,GAAG,SAAlB","sourcesContent":["export const bgGray = '#E5E5E5';\nexport const textBlack = '#3B3B3B';\n"]}

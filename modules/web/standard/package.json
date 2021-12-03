@@ -1,0 +1,23 @@
+{
+  "name": "@pab-source/module-web-standard",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "yarn run clean && yarn run compile",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "yarn run build",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "peerDependencies": {
+    "@pab-source/lib-web-components": "^1.0.0",
+    "react": "~17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~17.0.0",
+    "react": "~17.0.0",
+    "react-dom": "~17.0.0"
+  }
+}

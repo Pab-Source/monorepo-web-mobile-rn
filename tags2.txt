@@ -1,0 +1,1 @@
+@monorepo/template-mobile@1.0.24-alpha.1
