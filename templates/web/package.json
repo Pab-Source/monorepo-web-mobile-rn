@@ -25,5 +25,6 @@
     "less-loader": "^10.0.1",
     "react-scripts": "~4.0.1",
     "tsconfig-paths-webpack-plugin": "~3.5.0"
-  }
+  },
+  "gitHead": "993835d33eac0fdba73a218c467e74ca7bff3162"
 }
