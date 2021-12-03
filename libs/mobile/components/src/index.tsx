@@ -6,7 +6,7 @@ export interface IExampleComponent {}
 export const ExampleComponent: React.FC<IExampleComponent> = () => {
   return (
     <View>
-      <Text>Example component by lib</Text>
+      <Text>Example component</Text>
     </View>
   );
 };
