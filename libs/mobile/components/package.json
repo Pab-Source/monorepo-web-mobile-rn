@@ -1,6 +1,6 @@
 {
   "name": "@pab-source/lib-mobile-components",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": false,
   "description": "components",
   "main": "lib/commonjs/index",

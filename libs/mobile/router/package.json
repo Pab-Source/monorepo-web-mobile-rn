@@ -1,6 +1,6 @@
 {
   "name": "@pab-source/lib-mobile-router",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": false,
   "description": "router",
   "main": "lib/commonjs/index",
