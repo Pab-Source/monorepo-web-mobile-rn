@@ -1,6 +1,6 @@
 export declare const makeStyles: () => {
-    container: {
-        flex: number;
-        justifyContent: "flex-end";
-    };
+  container: {
+    flex: number;
+    justifyContent: 'flex-end';
+  };
 };

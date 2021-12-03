@@ -7,33 +7,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @pab-source/mobile-p2p
 
-
-
-
-
 ## [0.1.24-alpha.4](https://github.com/Pab-Source/react-native-pwc-demo/compare/@pab-source/mobile-p2p@0.1.24-alpha.3...@pab-source/mobile-p2p@0.1.24-alpha.4) (2021-12-03)
 
 **Note:** Version bump only for package @pab-source/mobile-p2p
-
-
-
-
 
 ## [0.1.24-alpha.3](https://github.com/Pab-Source/react-native-pwc-demo/compare/@pab-source/mobile-p2p@0.1.24-alpha.2...@pab-source/mobile-p2p@0.1.24-alpha.3) (2021-12-02)
 
 **Note:** Version bump only for package @pab-source/mobile-p2p
 
-
-
-
-
 ## 0.1.24-alpha.2 (2021-12-02)
 
 **Note:** Version bump only for package @pab-source/mobile-p2p
-
-
-
-
 
 ## [0.1.24-alpha.1](https://github.com/Pab-Source/react-native-pwc-demo/compare/mobile-p2p@0.1.23...mobile-p2p@0.1.24-alpha.1) (2021-12-01)
 

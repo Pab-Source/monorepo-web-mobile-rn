@@ -1,4 +1,4 @@
 export declare const list: {
-    name: string;
-    phone: string;
+  name: string;
+  phone: string;
 }[];

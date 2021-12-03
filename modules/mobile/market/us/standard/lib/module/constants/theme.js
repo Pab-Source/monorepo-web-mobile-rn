@@ -57,6 +57,6 @@ export const theme = {
   reviewLabelColor: '#757575',
   reviewLabelSize: 16,
   reviewValueColor: '#3B3B3B',
-  reviewValueSize: 16
+  reviewValueSize: 16,
 };
 //# sourceMappingURL=theme.js.map

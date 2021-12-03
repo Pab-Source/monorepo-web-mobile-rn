@@ -4,4 +4,8 @@
 **/yarn.lock
 **/.eslintrc
 **/.prettierrc
+**.rb
+Podfile
+**/android
+**/ios
 charts

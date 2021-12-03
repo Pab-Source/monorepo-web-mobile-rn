@@ -1,7 +1,5 @@
 import { StyleSheet } from 'react-native';
 
-
-
 export const makeStyles = (theme: any) =>
   StyleSheet.create({
     container: {
@@ -14,7 +12,7 @@ export const makeStyles = (theme: any) =>
       borderColor: theme.colorRadiusSelect,
       borderWidth: 1,
       height: 68,
-      backgroundColor: theme.backgroundSelect
+      backgroundColor: theme.backgroundSelect,
     },
     icon: {
       width: 32,

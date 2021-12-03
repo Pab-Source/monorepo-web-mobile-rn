@@ -1,7 +1,7 @@
 export const palette = {
   DarkGrey: '#3B3B3B',
   Orange: '#E36414',
-  ExtraDarkGrey: '#C2C2C2'
+  ExtraDarkGrey: '#C2C2C2',
 };
 export const theme = {
   textSectionTitleColor: palette.DarkGrey,
@@ -17,6 +17,6 @@ export const theme = {
   textDayHeaderFontWeight: 'bold',
   textDayFontSize: 16,
   textMonthFontSize: 18,
-  textDayHeaderFontSize: 16
+  textDayHeaderFontSize: 16,
 };
 //# sourceMappingURL=theme.js.map

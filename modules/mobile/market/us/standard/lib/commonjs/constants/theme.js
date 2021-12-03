@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
+Object.defineProperty(exports, '__esModule', {
+  value: true,
 });
 exports.theme = void 0;
 const theme = {
@@ -63,7 +63,7 @@ const theme = {
   reviewLabelColor: '#757575',
   reviewLabelSize: 16,
   reviewValueColor: '#3B3B3B',
-  reviewValueSize: 16
+  reviewValueSize: 16,
 };
 exports.theme = theme;
 //# sourceMappingURL=theme.js.map

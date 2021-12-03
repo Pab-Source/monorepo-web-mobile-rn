@@ -1,7 +1,7 @@
 export declare const makeStyles: () => {
-    icon: {
-        transform: {
-            rotateZ: string;
-        }[];
-    };
+  icon: {
+    transform: {
+      rotateZ: string;
+    }[];
+  };
 };

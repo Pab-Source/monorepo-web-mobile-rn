@@ -1,5 +1,5 @@
 export declare const makeStyles: () => {
-    container: {
-        marginTop: number;
-    };
+  container: {
+    marginTop: number;
+  };
 };

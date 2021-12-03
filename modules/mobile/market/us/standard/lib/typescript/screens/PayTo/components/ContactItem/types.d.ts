@@ -1,6 +1,6 @@
 export interface IContactItem {
-    contact: {
-        name: string;
-        phone: string;
-    };
+  contact: {
+    name: string;
+    phone: string;
+  };
 }

@@ -7,17 +7,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @pab-source/lib-shared-themes
 
-
-
-
-
 ## [1.0.25-alpha.3](https://github.com/Pab-Source/monorepo-web-mobile-rn/compare/@pab-source/lib-shared-themes@1.0.25-alpha.2...@pab-source/lib-shared-themes@1.0.25-alpha.3) (2021-12-02)
 
 **Note:** Version bump only for package @pab-source/lib-shared-themes
-
-
-
-
 
 ## 1.0.25-alpha.2 (2021-12-02)
 

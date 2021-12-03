@@ -10,4 +10,3 @@ export const makeStyles = (theme: any) =>
       paddingBottom: 30,
     },
   });
-

@@ -7,25 +7,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @pab-source/lib-mobile-router
 
-
-
-
-
 ## [0.1.25-alpha.3](https://github.com/compare/@pab-source/lib-mobile-router@0.1.25-alpha.2...@pab-source/lib-mobile-router@0.1.25-alpha.3) (2021-12-02)
 
 **Note:** Version bump only for package @pab-source/lib-mobile-router
 
-
-
-
-
 ## 0.1.25-alpha.2 (2021-12-02)
 
 **Note:** Version bump only for package @pab-source/lib-mobile-router
-
-
-
-
 
 ## [0.1.25-alpha.1](https://github.com/Pab-Source/@pab-source/rn-router/compare/lib-mobile-router@0.1.24...lib-mobile-router@0.1.25-alpha.1) (2021-12-01)
 

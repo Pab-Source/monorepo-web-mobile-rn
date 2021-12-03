@@ -1,78 +1,89 @@
 import { theme as defaultTheme } from '../constants/theme';
 import type { ComponentType, ReactNode } from 'react';
-export declare type TRoutes = Record<string, {
+export declare type TRoutes = Record<
+  string,
+  {
     name: string;
     component: ReactNode;
-}>;
-export declare type Screens = 'Home' | 'PayTo' | 'PayFrom' | 'Amount' | 'Review' | 'Alert';
+  }
+>;
+export declare type Screens =
+  | 'Home'
+  | 'PayTo'
+  | 'PayFrom'
+  | 'Amount'
+  | 'Review'
+  | 'Alert';
 export declare type Route = {
-    name: Screens;
-    component: ComponentType<any>;
+  name: Screens;
+  component: ComponentType<any>;
 };
 export declare type Routes = Route[];
 export interface IRootComponent {
-    secureRoutes?: Record<string, Route>;
-    theme?: typeof defaultTheme;
+  secureRoutes?: Record<string, Route>;
+  theme?: typeof defaultTheme;
 }
-export declare type RootStackParamList = {
-    Home: undefined;
-    PayTo: undefined;
-    PayFrom: {
+export declare type RootStackParamList =
+  | {
+      Home: undefined;
+      PayTo: undefined;
+      PayFrom: {
         payTo: {
-            label: string;
-            value: string;
+          label: string;
+          value: string;
         };
-    };
-    Amount: {
+      };
+      Amount: {
         payTo: {
-            label: string;
-            value: string;
+          label: string;
+          value: string;
         };
         payFrom: {
-            label: string;
-            value: string;
-            accountCode?: string;
-            accountType?: string;
-            accountAmount?: string;
+          label: string;
+          value: string;
+          accountCode?: string;
+          accountType?: string;
+          accountAmount?: string;
         };
-    };
-    When: {
+      };
+      When: {
         payTo: {
-            name: string;
-            phone: string;
+          name: string;
+          phone: string;
         };
         payFrom: {
-            label: string;
-            value: string;
-            accountCode?: string;
-            accountType?: string;
-            accountAmount?: string;
+          label: string;
+          value: string;
+          accountCode?: string;
+          accountType?: string;
+          accountAmount?: string;
         };
         amount: {
-            label: string;
-            value: string;
+          label: string;
+          value: string;
         };
-    };
-    Review: {
+      };
+      Review: {
         payTo: {
-            name: string;
-            phone: string;
+          name: string;
+          phone: string;
         };
         payFrom: {
-            label: string;
-            value: string;
-            accountCode?: string;
-            accountType?: string;
-            accountAmount?: string;
+          label: string;
+          value: string;
+          accountCode?: string;
+          accountType?: string;
+          accountAmount?: string;
         };
         amount: {
-            label: string;
-            value: string;
+          label: string;
+          value: string;
         };
         when: {
-            label: string;
-            value: string;
+          label: string;
+          value: string;
         };
-    };
-    Alert: undefined;
-} | Record<string, object | undefined>;
+      };
+      Alert: undefined;
+    }
+  | Record<string, object | undefined>;

@@ -1,3 +1,3 @@
 export interface ILoadingSuccess {
-    data: any;
+  data: any;
 }

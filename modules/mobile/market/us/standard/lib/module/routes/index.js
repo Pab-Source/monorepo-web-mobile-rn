@@ -8,31 +8,31 @@ import { Alert } from '../screens/Alert/Alert';
 export const internalRoutes = {
   Home: {
     name: 'Home',
-    component: Home
+    component: Home,
   },
   PayFrom: {
     name: 'PayFrom',
-    component: PayFrom
+    component: PayFrom,
   },
   PayTo: {
     name: 'PayTo',
-    component: PayTo
+    component: PayTo,
   },
   Amount: {
     name: 'Amount',
-    component: Amount
+    component: Amount,
   },
   When: {
     name: 'When',
-    component: When
+    component: When,
   },
   Review: {
     name: 'Review',
-    component: Review
+    component: Review,
   },
   Alert: {
     name: 'Alert',
-    component: Alert
-  }
+    component: Alert,
+  },
 };
 //# sourceMappingURL=index.js.map

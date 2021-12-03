@@ -7,33 +7,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @pab-source/template-mobile
 
-
-
-
-
 ## [1.0.24-alpha.24](https://github.com/Pab-Source/monorepo-web-mobile-rn/compare/@pab-source/template-mobile@1.0.24-alpha.23...@pab-source/template-mobile@1.0.24-alpha.24) (2021-12-03)
 
 **Note:** Version bump only for package @pab-source/template-mobile
-
-
-
-
 
 ## [1.0.24-alpha.23](https://github.com/Pab-Source/monorepo-web-mobile-rn/compare/@pab-source/template-mobile@1.0.24-alpha.22...@pab-source/template-mobile@1.0.24-alpha.23) (2021-12-02)
 
 **Note:** Version bump only for package @pab-source/template-mobile
 
-
-
-
-
 ## 1.0.24-alpha.22 (2021-12-02)
 
 **Note:** Version bump only for package @pab-source/template-mobile
-
-
-
-
 
 ## [1.0.24-alpha.21](https://github.com/Pab-Source/@pab-source/web-mobile-rn/compare/template-mobile@1.0.24-alpha.20...template-mobile@1.0.24-alpha.21) (2021-12-02)
 

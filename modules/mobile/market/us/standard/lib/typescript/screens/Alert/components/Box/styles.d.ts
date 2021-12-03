@@ -1,5 +1,5 @@
 export declare const makeStyles: () => {
-    container: {
-        alignItems: "center";
-    };
+  container: {
+    alignItems: 'center';
+  };
 };

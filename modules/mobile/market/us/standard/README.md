@@ -11,7 +11,7 @@ npm install react-native-pwc-demo
 ## Usage
 
 ```js
-import { multiply } from "react-native-pwc-demo";
+import { multiply } from 'react-native-pwc-demo';
 
 // ...
 

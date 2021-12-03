@@ -7,25 +7,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @pab-source/lib-mobile-components
 
-
-
-
-
 ## [1.0.24-alpha.24](https://github.com/compare/@pab-source/lib-mobile-components@1.0.24-alpha.23...@pab-source/lib-mobile-components@1.0.24-alpha.24) (2021-12-03)
 
 **Note:** Version bump only for package @pab-source/lib-mobile-components
 
-
-
-
-
 ## [1.0.24-alpha.23](https://github.com/compare/@pab-source/lib-mobile-components@1.0.24-alpha.22...@pab-source/lib-mobile-components@1.0.24-alpha.23) (2021-12-02)
 
 **Note:** Version bump only for package @pab-source/lib-mobile-components
-
-
-
-
 
 ## 1.0.24-alpha.22 (2021-12-02)
 
