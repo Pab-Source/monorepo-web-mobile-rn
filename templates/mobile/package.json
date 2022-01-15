@@ -1,6 +1,6 @@
 {
   "name": "@pab-source/template-mobile",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "scripts": {
     "android": "export PROD=false && react-native run-android",
