@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
+//const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const ForkTSCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const CracoLessPlugin = require("craco-less");
 
@@ -13,7 +13,7 @@ module.exports = {
             config.resolve.plugins.pop();
 
             // Resolve the path aliases.
-            config.resolve.plugins.push(new TsconfigPathsPlugin());
+            //config.resolve.plugins.push(new TsconfigPathsPlugin());
 
             // Let Babel compile outside of src/.
             const oneOfRule = config.module.rules.find((rule) => rule.oneOf);

@@ -12,8 +12,6 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@pab-source/lib-mobile-components": "^1.0.24-alpha.24",
-    "@pab-source/lib-shared-themes": "^1.0.25-alpha.3",
     "react": "17.0.2",
     "react-native": "0.66.0",
     "react-native-safe-area-context": "^3.3.2",
